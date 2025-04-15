@@ -1,0 +1,70 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 2px; /* Espessura do sublinhado */
+  text-decoration-color: red; /* Cor do sublinhado */
+}
+
+  div.sessao1 {
+    background-image: url('../imagens/essa1.png'); /* Preste atenção ao caminho relativo */
+    height: 100vh; /* Define a altura para 100% da altura da janela */
+    background-size: cover; /* Garante que a imagem cubra todo o contêiner */
+    background-position: center; /* Centraliza a imagem */
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+  }
+
+  div.sessao3 {
+    background-image: url('../imagens/sementes.png'); /* Preste atenção ao caminho relativo */
+    height: 70vh; /* Define a altura para 100% da altura da janela */
+    background-size: cover; /* Garante que a imagem cubra todo o contêiner */
+    background-position: center; /* Centraliza a imagem */
+    color: white;
+    font-family: "Onest", sans-serif;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+  }
+  header{
+    font-family: "Montserrat", sans-serif;
+ }
+  div.sessao2, div.sessao4 {
+    background-color: #ebe9e8;
+    font-family: "Montserrat", sans-serif;
+  }
+ 
+
+  .btn-custom {
+    text-decoration: none; /* Remove o sublinhado */
+    background-color: #ebe9e8; /* Exemplo de cor de fundo */
+    color: black;  /* Cor do texto */
+    padding: 10px 20px; /* Espaçamento interno */
+    border: 2px solid red;
+    display: inline-block;
+    font-weight: bold; /* Texto em negrito */
+    text-align: center;
+    transition: background-color 0.3s; /* Transição suave para hover */
+  }
+
+  /* Estilo de hover para o botão */
+  .btn-custom:hover {
+    background-color: black;
+    color: white /* Cor do fundo ao passar o mouse */
+  }
+  .titulo-sublinhado {
+    text-decoration: underline; /* Sublinha apenas o texto */
+    text-decoration-thickness: 2,5px; /* Define a espessura do sublinhado */
+    text-decoration-color: red; /* Define a cor do sublinhado */
+  }
+  
+  footer .bi {
+    font-size: 1.5rem;
+    font-family: "Montserrat", sans-serif;
+  }
