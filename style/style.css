@@ -33,11 +33,27 @@ body {
 
   }
 
-  @media (max-width: 768px) {
-    .div.sessao3 {
-        height: auto; /* Ajusta automaticamente a altura */
-        background-attachment: scroll; /* Torna o background estático em dispositivos móveis */
-    }
+/* Ajustes para dispositivos móveis */
+@media (max-width: 768px) {
+  .div.sessao3 {
+      height: auto; /* Ajusta automaticamente a altura */
+      background-attachment: scroll; /* Torna o background não fixo */
+  }
+}
+
+@media (max-width: 480px) {
+  .div.sessao3 {
+      background-size: contain; /* Ajusta a imagem para caber no contêiner */
+      padding: 20px; /* Adiciona espaçamento interno */
+  }
+}
+
+@media (max-width: 320px) {
+  .div.sessao3 {
+      background-size: contain;
+      padding: 10px; /* Espaçamento reduzido para telas muito pequenas */
+      font-size: 14px; /* Ajusta o tamanho da fonte para legibilidade */
+  }
 }
 
 
